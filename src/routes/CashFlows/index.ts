@@ -1,5 +1,5 @@
 import {Router} from 'express';
-import { ICashFlow, CashFlow } from '@libs/CashFlow';
+import { IUsuario, Usuario } from '@server/libs/Usuario';
 import { commonValidator, validateInput } from '@server/utils/validator';
 
 const router = Router();
